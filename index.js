@@ -1257,7 +1257,7 @@ if (reversed == null) { reversed = false; }
 	this.instance.setTransform(45.45,187.5,0.32,0.32,0,0,0,45.5,187.5);
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({_off:false},0).to({scaleX:1.05,scaleY:1.05,x:45.5,y:187.55},8,cjs.Ease.get(1)).to({scaleX:1,scaleY:1,y:187.5},5).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({_off:false},0).to({scaleX:1.05,scaleY:1.05,x:45.5,y:187.55},8,cjs.Ease.get(1)).to({scaleX:1,scaleY:1,y:187.5},5).wait(241));
 
 	this._renderFirstFrame();
 
@@ -1638,7 +1638,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,618,149.2);
 
 
 // stage content:
-(lib._1Pages_Georgia_s0109 = function(mode,startPosition,loop,reversed) {
+(lib._1Pages_Georgia_s01092 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = false; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -1912,7 +1912,7 @@ if (reversed == null) { reversed = false; }
 				time_mc.weekday_mc.gotoAndStop(d.getDay());
 				
 				const urlParams = new URLSearchParams(window.location.search);
-				const dayFrame = urlParams.has('mockDay') ? Number(urlParams.get('mockDay')) : (h > 5 && h < 19 ? 0 : 1);
+				const dayFrame = urlParams.has('mockDay') ? Number(urlParams.get('mockDay')) : (h > 5 && h < 18 ? 0 : 1);
 				
 				bg_mc.gotoAndStop(dayFrame);
 				bg_mc.b1.visible = dayFrame === 0;
@@ -2473,32 +2473,32 @@ lib.properties = {
 	color: "#545554",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/b.png?1673240486347", id:"b"},
-		{src:"images/Back.png?1673240486347", id:"Back"},
-		{src:"images/bg.png?1673240486347", id:"bg"},
-		{src:"images/bg_w.png?1673240486347", id:"bg_w"},
-		{src:"images/bgloop.png?1673240486347", id:"bgloop"},
-		{src:"images/black.png?1673240486347", id:"black"},
-		{src:"images/btn.png?1673240486347", id:"btn"},
-		{src:"images/checkin.png?1673240486347", id:"checkin"},
-		{src:"images/coff.png?1673240486347", id:"coff"},
-		{src:"images/l.png?1673240486347", id:"l"},
-		{src:"images/Lat.png?1673240486348", id:"Lat"},
-		{src:"images/men.png?1673240486348", id:"men"},
-		{src:"images/men_w.png?1673240486348", id:"men_w"},
-		{src:"images/moon.png?1673240486348", id:"moon"},
-		{src:"images/moon_w.png?1673240486348", id:"moon_w"},
-		{src:"images/sun.png?1673240486348", id:"sun"},
-		{src:"images/sun_w.png?1673240486348", id:"sun_w"},
-		{src:"images/talk.png?1673240486348", id:"talk"},
-		{src:"images/talk_w.png?1673240486348", id:"talk_w"},
-		{src:"images/toplogo.png?1673240486348", id:"toplogo"},
-		{src:"images/toplogo_w.png?1673240486348", id:"toplogo_w"},
-		{src:"images/win.png?1673240486348", id:"win"},
-		{src:"images/win2.png?1673240486348", id:"win2"},
-		{src:"images/win2_w.png?1673240486348", id:"win2_w"},
-		{src:"images/win_w.png?1673240486348", id:"win_w"},
-		{src:"images/打卡_.png?1673240486348", id:"打卡"}
+		{src:"images/b.png?1673258691739", id:"b"},
+		{src:"images/Back.png?1673258691739", id:"Back"},
+		{src:"images/bg.png?1673258691739", id:"bg"},
+		{src:"images/bg_w.png?1673258691739", id:"bg_w"},
+		{src:"images/bgloop.png?1673258691739", id:"bgloop"},
+		{src:"images/black.png?1673258691739", id:"black"},
+		{src:"images/btn.png?1673258691739", id:"btn"},
+		{src:"images/checkin.png?1673258691739", id:"checkin"},
+		{src:"images/coff.png?1673258691739", id:"coff"},
+		{src:"images/l.png?1673258691739", id:"l"},
+		{src:"images/Lat.png?1673258691739", id:"Lat"},
+		{src:"images/men.png?1673258691739", id:"men"},
+		{src:"images/men_w.png?1673258691739", id:"men_w"},
+		{src:"images/moon.png?1673258691739", id:"moon"},
+		{src:"images/moon_w.png?1673258691739", id:"moon_w"},
+		{src:"images/sun.png?1673258691739", id:"sun"},
+		{src:"images/sun_w.png?1673258691739", id:"sun_w"},
+		{src:"images/talk.png?1673258691739", id:"talk"},
+		{src:"images/talk_w.png?1673258691739", id:"talk_w"},
+		{src:"images/toplogo.png?1673258691739", id:"toplogo"},
+		{src:"images/toplogo_w.png?1673258691739", id:"toplogo_w"},
+		{src:"images/win.png?1673258691739", id:"win"},
+		{src:"images/win2.png?1673258691739", id:"win2"},
+		{src:"images/win2_w.png?1673258691739", id:"win2_w"},
+		{src:"images/win_w.png?1673258691739", id:"win_w"},
+		{src:"images/打卡_.png?1673258691739", id:"打卡"}
 	],
 	preloads: []
 };
