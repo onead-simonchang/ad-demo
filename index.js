@@ -1536,42 +1536,42 @@ if (reversed == null) { reversed = false; }
 	// 夜晚瓶3
 	this.b6 = new lib.lat();
 	this.b6.name = "b6";
-	this.b6.setTransform(244.95,1451.2,1,1,0,0,0,36,83);
+	this.b6.setTransform(443.95,1286.25,1,1,0,0,0,36,83);
 
 	this.timeline.addTween(cjs.Tween.get(this.b6).wait(2));
 
 	// 夜晚瓶2
 	this.b5 = new lib.lat();
 	this.b5.name = "b5";
-	this.b5.setTransform(1385.2,1227.15,1,1,0,0,0,36,83);
+	this.b5.setTransform(1411.2,813.05,1,1,0,0,0,36,83);
 
 	this.timeline.addTween(cjs.Tween.get(this.b5).wait(2));
 
 	// 夜晚瓶1
 	this.b4 = new lib.lat();
 	this.b4.name = "b4";
-	this.b4.setTransform(316.95,342.95,1,1,0,0,0,36,83);
+	this.b4.setTransform(443.95,343.95,1,1,0,0,0,36,83);
 
 	this.timeline.addTween(cjs.Tween.get(this.b4).wait(2));
 
 	// 白天瓶3
 	this.b3 = new lib.blac();
 	this.b3.name = "b3";
-	this.b3.setTransform(1385.7,1250.6,1,1,0,0,0,36.5,82.5);
+	this.b3.setTransform(1183.65,1267.75,1,1,0,0,0,36.5,82.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.b3).wait(2));
 
 	// 白天瓶2
 	this.b2 = new lib.blac();
 	this.b2.name = "b2";
-	this.b2.setTransform(1385.7,354.4,1,1,0,0,0,36.5,82.5);
+	this.b2.setTransform(1176.65,366.45,1,1,0,0,0,36.5,82.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.b2).wait(2));
 
 	// 白天瓶1
 	this.b1 = new lib.blac();
 	this.b1.name = "b1";
-	this.b1.setTransform(209.4,774.45,1,1,0,0,0,36.5,82.5);
+	this.b1.setTransform(214.5,812.45,1,1,0,0,0,36.5,82.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.b1).wait(2));
 
@@ -1638,7 +1638,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,618,149.2);
 
 
 // stage content:
-(lib._1Pages_Georgia_s01092 = function(mode,startPosition,loop,reversed) {
+(lib._1Pages_Georgia_s01101 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = false; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -1915,12 +1915,6 @@ if (reversed == null) { reversed = false; }
 				const dayFrame = urlParams.has('mockDay') ? Number(urlParams.get('mockDay')) : (h > 5 && h < 18 ? 0 : 1);
 				
 				bg_mc.gotoAndStop(dayFrame);
-				bg_mc.b1.visible = dayFrame === 0;
-				bg_mc.b2.visible = dayFrame === 0;
-				bg_mc.b3.visible = dayFrame === 0;
-				bg_mc.b4.visible = dayFrame === 1;
-				bg_mc.b5.visible = dayFrame === 1;
-				bg_mc.b6.visible = dayFrame === 1;
 				frame_mc.gotoAndStop(dayFrame);
 				ring_mc.gotoAndStop(dayFrame);
 				logo_mc.gotoAndStop(dayFrame);
@@ -2473,32 +2467,32 @@ lib.properties = {
 	color: "#545554",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/b.png?1673258691739", id:"b"},
-		{src:"images/Back.png?1673258691739", id:"Back"},
-		{src:"images/bg.png?1673258691739", id:"bg"},
-		{src:"images/bg_w.png?1673258691739", id:"bg_w"},
-		{src:"images/bgloop.png?1673258691739", id:"bgloop"},
-		{src:"images/black.png?1673258691739", id:"black"},
-		{src:"images/btn.png?1673258691739", id:"btn"},
-		{src:"images/checkin.png?1673258691739", id:"checkin"},
-		{src:"images/coff.png?1673258691739", id:"coff"},
-		{src:"images/l.png?1673258691739", id:"l"},
-		{src:"images/Lat.png?1673258691739", id:"Lat"},
-		{src:"images/men.png?1673258691739", id:"men"},
-		{src:"images/men_w.png?1673258691739", id:"men_w"},
-		{src:"images/moon.png?1673258691739", id:"moon"},
-		{src:"images/moon_w.png?1673258691739", id:"moon_w"},
-		{src:"images/sun.png?1673258691739", id:"sun"},
-		{src:"images/sun_w.png?1673258691739", id:"sun_w"},
-		{src:"images/talk.png?1673258691739", id:"talk"},
-		{src:"images/talk_w.png?1673258691739", id:"talk_w"},
-		{src:"images/toplogo.png?1673258691739", id:"toplogo"},
-		{src:"images/toplogo_w.png?1673258691739", id:"toplogo_w"},
-		{src:"images/win.png?1673258691739", id:"win"},
-		{src:"images/win2.png?1673258691739", id:"win2"},
-		{src:"images/win2_w.png?1673258691739", id:"win2_w"},
-		{src:"images/win_w.png?1673258691739", id:"win_w"},
-		{src:"images/打卡_.png?1673258691739", id:"打卡"}
+		{src:"images/b.png?1673328366384", id:"b"},
+		{src:"images/Back.png?1673328366384", id:"Back"},
+		{src:"images/bg.png?1673328366384", id:"bg"},
+		{src:"images/bg_w.png?1673328366384", id:"bg_w"},
+		{src:"images/bgloop.png?1673328366384", id:"bgloop"},
+		{src:"images/black.png?1673328366384", id:"black"},
+		{src:"images/btn.png?1673328366384", id:"btn"},
+		{src:"images/checkin.png?1673328366384", id:"checkin"},
+		{src:"images/coff.png?1673328366384", id:"coff"},
+		{src:"images/l.png?1673328366384", id:"l"},
+		{src:"images/Lat.png?1673328366384", id:"Lat"},
+		{src:"images/men.png?1673328366384", id:"men"},
+		{src:"images/men_w.png?1673328366384", id:"men_w"},
+		{src:"images/moon.png?1673328366384", id:"moon"},
+		{src:"images/moon_w.png?1673328366384", id:"moon_w"},
+		{src:"images/sun.png?1673328366384", id:"sun"},
+		{src:"images/sun_w.png?1673328366384", id:"sun_w"},
+		{src:"images/talk.png?1673328366384", id:"talk"},
+		{src:"images/talk_w.png?1673328366384", id:"talk_w"},
+		{src:"images/toplogo.png?1673328366384", id:"toplogo"},
+		{src:"images/toplogo_w.png?1673328366384", id:"toplogo_w"},
+		{src:"images/win.png?1673328366384", id:"win"},
+		{src:"images/win2.png?1673328366384", id:"win2"},
+		{src:"images/win2_w.png?1673328366384", id:"win2_w"},
+		{src:"images/win_w.png?1673328366384", id:"win_w"},
+		{src:"images/打卡_.png?1673328366384", id:"打卡"}
 	],
 	preloads: []
 };
